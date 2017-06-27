@@ -6,21 +6,24 @@
     <body>
 	 <h1>This is a Heading</h1>
 	 <p>This is a paragraph.</p>
-         <table style="width:100%">
+         <table style="width = 400px">
   	     <tr>
-                 <th>Firstname</th>
-                 <th>Lastname</th> 
-                 <th>Age</th>
+                 <th>attribut</th>
+                 <th>value</th> 
              </tr>
              <tr>
-                 <td>Jill</td>
-                 <td>Smith</td> 
-                 <td>50</td>
+                 <td>name</td>
+                 <td><input type="text" name="name"></td> 
              </tr>
              <tr>
-                 <td>Eve</td>
-                 <td>Jackson</td> 
-                 <td>94</td>
+                 <td>gender</td>
+                 <td>
+			<form>
+			<input type="radio" name="gender" value="male" checked> Male<br>
+  			<input type="radio" name="gender" value="female"> Female<br>
+  			<input type="radio" name="gender" value="other"> Other
+                        </form>
+		 </td> 
              </tr>
          </table>
     </body>
